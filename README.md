@@ -11,11 +11,9 @@ functions.
 Migrated to github in 2020.  The code is fininshed and manged by svn around
 2008 (a few adaptations later on) -- old, still functional.
 
-./imat/
-  * Headers only or template library files:
-
-./demos/
-  * Demo or examples (also as tests in developement):
+Directories:
+* imat/ - Headers only or template library files
+* demos/ - Demo or examples (also as tests in developement)
 
 ---
 Compile and run the test:
