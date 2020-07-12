@@ -24,4 +24,4 @@ $ ./matrix_demo
 ```
 
 ---
-Check the 'makefile' to turn on GSL calling
+Check the 'makefile' for turning on GSL calling
