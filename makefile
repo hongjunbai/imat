@@ -4,7 +4,9 @@ all: matrix_demo vector_demo
 #flags=-fast
 CC = g++ 
 flags= -O3 #-g
-#gsl= -DGSL -lgsl -lgslcblas -lm
+
+# !!! After GSL installed, check and modify this accordingly
+#gsl= -DGSL -lgsl -lgslcblas -lm #-I/opt/local/include -L/opt/local/lib
 
 vector_demo: demos/vector_demo.cpp imat/vector.h imat/vector_inl.h imat/base.h imat/base_inl.h
 	$(CC) $(flags) demos/vector_demo.cpp -o vector_demo
