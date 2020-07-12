@@ -22,3 +22,6 @@ $ make
 $ ./vector_demo
 $ ./matrix_demo
 ```
+
+---
+Check the 'makefile' to turn on GSL calling
